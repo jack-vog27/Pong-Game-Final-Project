@@ -1,0 +1,65 @@
+
+body{
+  text-align: center;
+  background-image: url("spa.jpg");
+}
+
+#pong{
+  background-color: black;
+  width: 600px;
+  height: 300px;
+  margin: 0 auto;
+  position: relative;
+  border-style: solid;
+  border-color: white;
+}
+
+#player-padel {
+background-color: #F29F05;
+
+}
+
+#ai-padel {
+background-color: #0455BF;
+right: 0px;
+
+}
+
+#ball {
+  background-color: #ffffb9;
+  width: 20px;
+  height: 20px;
+  left: 200px;
+  top: 200px;
+  border-radius: 50%;
+  position: absolute;
+}
+
+
+.padel {
+  height: 100px;
+  width: 20px;
+  position: absolute;
+}
+
+h1 {
+color: #F29F05;
+text-shadow: 2px 2px 5px black;
+ }
+
+
+#restart {
+  margin-top: 10px;
+  background-color: #F29F05 ;
+  padding: 10px;
+  font-size: 20px;
+  border: solid;
+  cursor: pointer;
+  width: 200px;
+  height: 50px;
+}
+
+#restart:hover {
+  background-color: #325434;
+  color: white;
+}
